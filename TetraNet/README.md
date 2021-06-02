@@ -9,6 +9,9 @@ Project TetraNet is a novel research project used for wildfire mitigation using 
 
 Built and launched a nanosatellite that uses Computer Vision algorithms to actively monitor wildfire progression. This codebase is a web application to display the capabilities we would be able to offer local officials that would use tetranet to monitor wildfires in their area. The web application is built using googe Maps api along with Flask backend framework and Azure cloud.
 
+![image](https://user-images.githubusercontent.com/65915193/113540522-edff3500-95a5-11eb-9b28-93b08da6b89f.png)
+
+
 *Heat mapping for wildfire tracking*
 
 ![image](https://user-images.githubusercontent.com/65791148/113547014-c06cb880-95b2-11eb-91c7-9d91d07c00c5.png)
