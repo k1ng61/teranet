@@ -6,26 +6,13 @@ Project TetraNet is a novel research project used for wildfire mitigation using 
 
 Practical Applications
 -
+![image](https://user-images.githubusercontent.com/65915193/113542748-88617780-95aa-11eb-8952-399483f8c06a.png)
+
 Our project is a low-cost alternative to traditional satellites deployed into space that track geographical features and trends. Current methods of mitigation are often expensive and inaccessible for general public use, with data decentralized and hard to orchestrate for wildfire responses. TetraNet explores the viability of an open-source application with a device that anyone can use. The goal with TetraNet is to provide means for both monitoring ongoing wildfires as well as predicitng future ones with preventative measures.
-
-
-*Dense vegetation tracking via semantic segmentation*
-<p align = "center">
-<img src="https://s4.ezgif.com/save/ezgif-4-58b5792d197e.gif"/>
-</p>
 
 *Heat mapping for wildfire tracking*
 
 ![image](https://user-images.githubusercontent.com/65791148/113547014-c06cb880-95b2-11eb-91c7-9d91d07c00c5.png)
-
-## Nanosatellite Engineering
-
-![image](https://user-images.githubusercontent.com/65915193/113235068-11557780-9268-11eb-88a5-1da251bd10b5.png)
-![image](https://user-images.githubusercontent.com/65915193/113235206-482b8d80-9268-11eb-9f64-8d097736f1ef.png)
-
-![image](https://user-images.githubusercontent.com/65915193/113542748-88617780-95aa-11eb-8952-399483f8c06a.png)
-
-We engineered a device to deploy into the Earth's atmosphere.
 
 ## Image Segmentation Analysis using U-Net Convolutional Neural Network
 
@@ -76,17 +63,5 @@ response = requests.post(azure_aci_url, files=files)
 
 mask_data = response.json()
 ```
-UI Demonstration 
-
-https://user-images.githubusercontent.com/65791148/113903912-18fcab00-9797-11eb-867e-6a5544e8c1b8.mp4
-
-
-## Project Architecture
-
-![image](https://user-images.githubusercontent.com/65915193/113540522-edff3500-95a5-11eb-9b28-93b08da6b89f.png)
-
-## Future Implications
-
-With the trending temperature increase as a result of global warming, our nanosatellite can provide substantial impact by possibly providing real-time alerts to fire departments and public safety services across the world to not only mitigate wildfires and save lives but also prevent severe smoke inhalation and save millions of dollars in damage caused by wildfires annually. With Azure's ACI services, our U-Net model predictions were able to be processed with relative simplicity.
 
 
