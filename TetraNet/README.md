@@ -89,6 +89,4 @@ https://user-images.githubusercontent.com/65791148/113903912-18fcab00-9797-11eb-
 
 With the trending temperature increase as a result of global warming, our nanosatellite can provide substantial impact by possibly providing real-time alerts to fire departments and public safety services across the world to not only mitigate wildfires and save lives but also prevent severe smoke inhalation and save millions of dollars in damage caused by wildfires annually. With Azure's ACI services, our U-Net model predictions were able to be processed with relative simplicity.
 
-## Contributors
 
-Project TetraNet was created by Abhinav Bichal, Sarvesh Sathish, and Pranay Shah for the 2021 Microsoft Azure AI competition. 
