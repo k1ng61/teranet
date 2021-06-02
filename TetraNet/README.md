@@ -1,12 +1,11 @@
 **Project TetraNet**
 -
-![image](https://user-images.githubusercontent.com/65915193/113542926-eee69580-95aa-11eb-9709-29cc428062f8.png)
+![image](https://user-images.githubusercontent.com/65915193/113542748-88617780-95aa-11eb-8952-399483f8c06a.png)
+
 Project TetraNet is a novel research project used for wildfire mitigation using footage from rapid nanosatellite deployed into space. We created a nanosatellite that utilizes computer vision models, image segmentation U-Net convolutional networks, linear regression artifical neural networks, and heuristic fire spread simulators in order to accurately apply wildfire patterns to a real-world setting. The idea is to allow anyone to access quality terrain analysis for a fraction of the cost. 
 
 
 ## Logistics
--
-![image](https://user-images.githubusercontent.com/65915193/113542748-88617780-95aa-11eb-8952-399483f8c06a.png)
 
 Built and launched a nanosatellite that uses Computer Vision algorithms to actively monitor wildfire progression. This codebase is a web application to display the capabilities we would be able to offer local officials that would use tetranet to monitor wildfires in their area. The web application is built using googe Maps api along with Flask backend framework and Azure cloud.
 
