@@ -4,11 +4,11 @@
 Project TetraNet is a novel research project used for wildfire mitigation using footage from rapid nanosatellite deployed into space. We created a nanosatellite that utilizes computer vision models, image segmentation U-Net convolutional networks, linear regression artifical neural networks, and heuristic fire spread simulators in order to accurately apply wildfire patterns to a real-world setting. The idea is to allow anyone to access quality terrain analysis for a fraction of the cost. 
 
 
-Practical Applications
+## Logistics
 -
 ![image](https://user-images.githubusercontent.com/65915193/113542748-88617780-95aa-11eb-8952-399483f8c06a.png)
 
-Our project is a low-cost alternative to traditional satellites deployed into space that track geographical features and trends. Current methods of mitigation are often expensive and inaccessible for general public use, with data decentralized and hard to orchestrate for wildfire responses. TetraNet explores the viability of an open-source application with a device that anyone can use. The goal with TetraNet is to provide means for both monitoring ongoing wildfires as well as predicitng future ones with preventative measures.
+Built and launched a nanosatellite that uses Computer Vision algorithms to actively monitor wildfire progression. This codebase is a web application to display the capabilities we would be able to offer local officials that would use tetranet to monitor wildfires in their area. The web application is built using googe Maps api along with Flask backend framework and Azure cloud.
 
 *Heat mapping for wildfire tracking*
 
@@ -47,21 +47,4 @@ Using the [forest fires data set](http://archive.ics.uci.edu/ml/datasets/Forest+
 ![video-4 (1)](https://user-images.githubusercontent.com/65791148/113903462-a390da80-9796-11eb-84b9-519c196f6f89.gif)
 
 We utilized a mathematical model utilizing a heuristic to depict how fire spreading works while wind is blowing. The results of the code can be seen through this GIF.  
-
-## Web Application
-
-We created an extensive front-end and back-end application to display the data like Google Maps location video, and fire simulation, utilizing the Google Maps API.
-Furthermore, we utilized the Python Flask back-end framework to make API calls to Azure's machine learning and cloud services. The following is the core logic for 
-retrieving the U-Net segmentation masks:
-
-```
-# An example URL for accessing the web service
-azure_aci_url = 'http://67534526-f00a-ds33-a447-22a76351d991.eastus.azurecontainer.io/score' 
-
-files = {'image' : open(image_directory, 'rb').read()
-response = requests.post(azure_aci_url, files=files)
-
-mask_data = response.json()
-```
-
 
